@@ -59,7 +59,7 @@ function PostDetails() {
               src={
                 post.coverImage.startsWith("http")
                  ? post.coverImage
-            :`http://localhost:5000${post.coverImage}`
+            :`https://hashnode-platform-3a49.onrender.com${post.coverImage}`
                }
               alt={post.title}
              className="post-cover-image"

@@ -1,0 +1,197 @@
+﻿Diagnose log at 2026-10-18T09:46:32Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.9.0+194ba290ce533465310d50f811684ab180536ae7
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+GIT_TRACE=1
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD
+EFC_13892_2775293581=1
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\RIYA\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\RIYA\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\RIYA\AppData\Local\Microsoft\WindowsApps;C:\Users\RIYA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RIYA\AppData\Roaming\npm;C:\ProgramData\RIYA\GitHubDesktop\bin;C:\Users\RIYA\AppData\Local\GitHubDesktop\bin
+USERPROFILE=C:\Users\RIYA
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-1cb3f2cee2-sock
+PROCESSOR_REVISION=a000
+TEMP=C:\Users\RIYA\AppData\Local\Temp
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING=Default
+EFC_13892_3789132940=1
+TERM=xterm-256color
+USERNAME=RIYA
+SystemRoot=C:\Windows
+EFC_13892_1592913036=1
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\RIYA\OneDrive
+VSCODE_NONCE=c719e0f8-48ab-4b25-aa39-e2cb08cc2b38
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+ProgramData=C:\ProgramData
+LANG=en_US.UTF-8
+GIT_ASKPASS=c:\Users\RIYA\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh
+HOMEPATH=\Users\RIYA
+COMPUTERNAME=LAPTOP-P90GE4VE
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+NUMBER_OF_PROCESSORS=8
+TMP=C:\Users\RIYA\AppData\Local\Temp
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\Windows
+GIT_TRACE2_PARENT_SID=64ee0959-1cac-46c5-8d08-3f8085886507
+SystemDrive=C:
+LOCALAPPDATA=C:\Users\RIYA\AppData\Local
+OS=Windows_NT
+EFC_13892_2283032206=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\Windows\system32\cmd.exe
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+HOME=C:\Users\RIYA
+LOGONSERVER=\\LAPTOP-P90GE4VE
+PROMPT=$P$G
+TMPDIR=C:\Users\RIYA\AppData\Local\Temp
+APPDATA=C:\Users\RIYA\AppData\Roaming
+USERDOMAIN=LAPTOP-P90GE4VE
+PROCESSOR_LEVEL=23
+EFC_13892_4126798990=1
+VSCODE_GIT_ASKPASS_NODE=C:\Users\RIYA\AppData\Local\Programs\Microsoft VS Code\Code.exe
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_3216_FNMUMNRZJCMYANXO
+TERM_PROGRAM_VERSION=1.141.0
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-P90GE4VE
+EFC_13892_1262719628=1
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+CommonProgramFiles=C:\Program Files\Common Files
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\RIYA\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\RIYA\AppData\Local\Temp\8cb043b690b18305fb4ce0cd'... OK
+Reading from temporary file 'C:\Users\RIYA\AppData\Local\Temp\8cb043b690b18305fb4ce0cd'... OK
+Deleting temporary file 'C:\Users\RIYA\AppData\Local\Temp\8cb043b690b18305fb4ce0cd'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\RIYA
+UserDataDirectoryPath: C:\Users\RIYA\.gcm
+GetCurrentDirectory(): C:\Users\RIYA\hashnode-platform\hashnode-platform
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:63522/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.4'
+Locating current repository...Git repository at 'C:/Users/RIYA/hashnode-platform/hashnode-platform/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/RIYA/.gitconfig	user.name=riyavishwakarma246-arch
+file:C:/Users/RIYA/.gitconfig	user.email=riyavishwakarma246@gmail.com
+file:C:/Users/RIYA/.gitconfig	core.editor=notepad
+file:C:/Users/RIYA/.gitconfig	core.pager=cat
+file:C:/Users/RIYA/.gitconfig	credential.helper=manager
+file:C:/Users/RIYA/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/RIYA/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/RIYA/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/RIYA/.gitconfig	filter.lfs.required=true
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/riyavishwakarma246-arch/hashnode-platform.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\RIYA\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\RIYA\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

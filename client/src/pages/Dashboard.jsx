@@ -228,7 +228,7 @@ function Dashboard() {
                   src={
                     coverImage.startsWith("http")
                       ? coverImage
-                      : `http://localhost:5000${coverImage}`
+                      : `https://hashnode-platform-3a49.onrender.com${coverImage}`
                   }
                   alt="Current cover"
                   style={{

@@ -13,7 +13,7 @@ function Register() {
     event.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/auth/register", {
+      await axios.post("https://hashnode-platform-3a49.onrender.com/api/auth/register", {
         name,
         email,
         password,
